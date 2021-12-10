@@ -10,6 +10,8 @@ a:visited,
 summary {
   color: #000;
   font-size: 0.85rem;
+  /* line-height: 1rem; */
+
   text-decoration: none;
   text-transform: uppercase;
   transition: background 0.15s ease;
@@ -45,7 +47,7 @@ details[open] > summary::before {
 
 details ul {
   font-size: 1.5rem;
-  line-height: 1rem;
+  line-height: 1rem; /* prevents unecessary y-axis spacing */
   margin-bottom: 0.1rem;
 }
 
@@ -80,7 +82,7 @@ p {
   font-size: 0.85rem;
   margin-bottom: 2.5rem; /*0.5rem*/
   font-family: "IBM Plex Mono", monospace;
-  width: 38%;
+  /* width: 40%; */
 }
 
 ul {
@@ -99,7 +101,7 @@ ul {
 
 #logo-container {
   margin: 5rem 0 1.3rem 0;
-  width: 5%;
+  width: 3rem;
   height: auto;
 }
 

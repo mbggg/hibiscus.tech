@@ -64,7 +64,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica", sans-serif;
   text-transform: uppercase;
 }
 
@@ -93,6 +93,10 @@ ul {
   || Mobile
 */
 @media (max-width: 576px) {
+  h1 {
+    font-family: "Helvetica", sans-serif;
+  }
+
   .container-fluid {
     padding: 0 2rem;
   }

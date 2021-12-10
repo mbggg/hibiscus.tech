@@ -55,7 +55,7 @@ details ul > li {
 details a {
   color: var(--taupe) !important;
   text-transform: capitalize !important;
-  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
 h1,

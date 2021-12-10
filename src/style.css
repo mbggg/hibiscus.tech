@@ -32,12 +32,20 @@ details > summary {
   color: var(--taupe);
 }
 
+details:focus {
+  border: none;
+  box-shadow: none;
+}
+
+/* removes arrow */
 details > summary::-webkit-details-marker {
   display: none;
 }
 
+/* removes arrow */
 details[open] > summary::before {
   content: "";
+  box-shadow: none;
 }
 
 details ul {

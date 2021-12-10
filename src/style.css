@@ -93,11 +93,15 @@ ul {
   || Mobile
 */
 @media (max-width: 576px) {
+  .container-fluid {
+    padding: 0 2rem;
+  }
+
   #logo-container {
     width: 25%;
     height: auto;
     margin: 3rem 0 1rem 0;
     position: relative;
-    /* right: 2rem; */
+    /* left: 5rem; */
   }
 }

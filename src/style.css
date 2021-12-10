@@ -22,25 +22,33 @@ body {
   font-family: "IBM Plex Mono", monospace;
 }
 
+details {
+  /* border: 1px solid var(--highlight); */
+  padding: 0.2rem;
+}
+
 details > summary {
   list-style-type: none;
+  /* font-size: 0.85rem; */
+  color: var(--taupe);
+  border-bottom: 0.5px solid var(--highlight);
 }
 
-details {
-  border: 1px solid var(--highlight);
-}
-
-/* details > summary::after {
-  content: url("imgs/caret-down.svg");
+summary > .ph-caret-down {
+  /* border: 1px solid; */
   position: absolute;
-  right: 0.5rem;
+  right: 1rem;
+  margin: 0.25rem auto;
 }
 
-details[open] > summary::after {
-  content: "⌃";
-  position: absolute;
-  right: 0.5rem;
-} */
+details ul {
+  margin-top: 0.2rem;
+}
+
+details li:first-child {
+  border-bottom: 0.5px solid var(--highlight);
+  padding-bottom: 0.1rem;
+}
 
 h1,
 h2,
@@ -48,12 +56,24 @@ h3,
 h4,
 h5,
 h6 {
+  color: var(--charcoal);
   font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  color: var(--taupe);
+  font-size: 0.8rem;
 }
 
 ul {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 0rem !important;
 }
 
 #logo-container {

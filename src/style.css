@@ -94,10 +94,10 @@ ul {
 */
 @media (max-width: 576px) {
   #logo-container {
-    width: 40%;
+    width: 25%;
     height: auto;
-    margin-top: 2rem;
+    margin: 3rem 0 1rem 0;
     position: relative;
-    right: 2.3rem;
+    /* right: 2rem; */
   }
 }

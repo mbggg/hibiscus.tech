@@ -23,24 +23,22 @@ body {
 }
 
 details {
-  /* border: 1px solid var(--highlight); */
-  padding: 0.2rem;
+  font-size: 0.85rem;
 }
 
 details > summary {
+  font-size: 0.85rem;
   list-style-type: none;
-  /* font-size: 0.85rem; */
   color: var(--taupe);
-  border-bottom: 0.5px solid var(--highlight);
 }
 
 details ul {
   margin-top: 0.2rem;
 }
 
-details li:first-child {
-  border-bottom: 0.5px solid var(--highlight);
-  padding-bottom: 0.1rem;
+details li {
+  font-size: 0.85rem;
+  padding-bottom: 0.4rem;
 }
 
 h1,
@@ -59,8 +57,9 @@ h1 {
 }
 
 p {
-  color: var(--taupe);
-  font-size: 0.8rem;
+  color: var(--charcoal);
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
 }
 
 ul {
@@ -81,5 +80,8 @@ ul {
   #logo-container {
     width: 40%;
     height: auto;
+    margin-top: 2rem;
+    position: relative;
+    right: 2.3rem;
   }
 }

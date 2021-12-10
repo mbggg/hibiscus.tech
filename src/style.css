@@ -7,10 +7,11 @@
 
 a:link,
 a:visited {
-  text-decoration: none;
   color: #000;
-  transition: background 0.15s ease;
   font-size: 0.85rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background 0.15s ease;
 }
 
 a:hover {
@@ -20,17 +21,13 @@ a:hover {
 
 details {
   font-size: 0.85rem;
+  text-transform: uppercase;
 }
 
 details > summary {
   font-size: 0.85rem;
   list-style-type: none !important;
   color: #000;
-}
-
-details:focus {
-  border: none;
-  box-shadow: none;
 }
 
 /* removes arrow */
@@ -50,7 +47,7 @@ details ul {
 
 details li {
   font-size: 1.5rem;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.2rem !important;
 }
 
 h1,

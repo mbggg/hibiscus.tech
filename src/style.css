@@ -42,12 +42,12 @@ details[open] > summary::before {
 }
 
 details ul {
-  margin-top: 0.2rem;
+  font-size: 1.5rem;
+  line-height: 1rem;
 }
 
-details li {
-  font-size: 1.5rem;
-  padding-bottom: 0.2rem !important;
+details ul > li {
+  padding-bottom: 0.3rem !important;
 }
 
 h1,

@@ -28,8 +28,16 @@ details {
 
 details > summary {
   font-size: 0.85rem;
-  list-style-type: none;
+  list-style-type: none !important;
   color: var(--taupe);
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] > summary::before {
+  content: "";
 }
 
 details ul {

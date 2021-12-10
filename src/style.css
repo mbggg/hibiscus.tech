@@ -6,7 +6,8 @@
 }
 
 a:link,
-a:visited {
+a:visited,
+summary {
   color: #000;
   font-size: 0.85rem;
   text-decoration: none;
@@ -14,14 +15,14 @@ a:visited {
   transition: background 0.15s ease;
 }
 
-a:hover {
+a:hover,
+summary:hover {
   background: var(--h);
   border-bottom: 1px dotted var(--taupe);
 }
 
-details {
-  font-size: 0.85rem;
-  text-transform: uppercase;
+body {
+  -ms-overflow-style: none;
 }
 
 details > summary {
@@ -79,16 +80,26 @@ p {
   font-size: 0.85rem;
   margin-bottom: 2.5rem; /*0.5rem*/
   font-family: "IBM Plex Mono", monospace;
+  width: 38%;
 }
 
 ul {
   list-style: none;
   padding-left: 0;
-  /* margin-bottom: 0rem !important; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: 100vw;
+  padding-left: 7rem;
 }
 
 #logo-container {
-  width: 20%;
+  margin: 5rem 0 2rem 0;
+  width: 5%;
   height: auto;
 }
 
@@ -100,15 +111,14 @@ ul {
     font-family: "Helvetica", sans-serif;
   }
 
-  .container-fluid {
+  .container-sm {
     padding: 0 2rem;
   }
 
   #logo-container {
-    width: 15%;
+    width: 13%;
     height: auto;
     margin: 3rem 0 1.2rem 0;
-    position: relative;
-    /* left: 5rem; */
+    /* position: relative; */
   }
 }

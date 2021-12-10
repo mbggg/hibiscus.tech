@@ -44,10 +44,17 @@ details[open] > summary::before {
 details ul {
   font-size: 1.5rem;
   line-height: 1rem;
+  margin-bottom: 0.1rem;
 }
 
 details ul > li {
-  padding-bottom: 0.3rem !important;
+  padding-bottom: 0.3rem;
+}
+
+details a {
+  color: var(--taupe) !important;
+  text-transform: capitalize !important;
+  padding-left: 1rem;
 }
 
 h1,
@@ -76,7 +83,7 @@ p {
 ul {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 0rem !important;
+  /* margin-bottom: 0rem !important; */
 }
 
 #logo-container {

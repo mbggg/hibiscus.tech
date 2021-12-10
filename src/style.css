@@ -1,0 +1,68 @@
+:root {
+  --charcoal: #2c2e2ee8;
+  --taupe: #908a88;
+  --highlight: #908a8833;
+  --h: #dfda9452;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--taupe);
+  transition: background 0.15s ease;
+  font-size: 0.85rem;
+}
+
+a:hover {
+  background: var(--h);
+  border-bottom: 1px dotted var(--taupe);
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+details > summary {
+  list-style-type: none;
+}
+
+details {
+  border: 1px solid var(--highlight);
+}
+
+/* details > summary::after {
+  content: url("imgs/caret-down.svg");
+  position: absolute;
+  right: 0.5rem;
+}
+
+details[open] > summary::after {
+  content: "⌃";
+  position: absolute;
+  right: 0.5rem;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#logo-container {
+  width: 20%;
+  height: auto;
+}
+
+/* 
+  || Mobile
+*/
+@media (max-width: 576px) {
+}
